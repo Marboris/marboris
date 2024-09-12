@@ -1,0 +1,10 @@
+[package]
+name = "bris"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes-gcm = "0.10"  # یا نسخه جدیدتر
+aes-gcm-siv = "0.10"  # برای یک الگوریتم رمزگذاری ایمن تر
+argon2 = "0.4"
+rand = "0.8"  # برای تولید مقادیر تصادفی
